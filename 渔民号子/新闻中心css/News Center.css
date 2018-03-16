@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("../首页img/black.png");
+	text-decoration:none;
+}
+.containers{
+	margin: 0px;
+	padding: 0px;
+}
+.pic{
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+.pic img{
+	margin: -15px 0px 0px 200px;
+	width: 140px;
+	height:120px;
+}
+.sousuo{
+	margin: 10px 10px -35px 950px;
+	background:url("../首页img/white.png") no-repeat;
+}
+.lead{
+	margin:50px -30px 0px 360px;
+	padding:0px;
+}
+.lead ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+.lead ul li{
+	float:left;
+	font-size:20px;
+	text-align:center;
+	width:115px;
+}
+.lead ul li a{
+	text-decoration:none;
+	display:block;
+	padding:15px 12px 18px 18px;;
+	margin:0px;
+}
+.lead a:link,.lead a:visited{
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+.lead a:hover{
+	text-decoration:underline;
+	color:red;
+	background:url("../首页img/button1-bg.jpg") no-repeat;
+}
+.bg{
+	height: 200px;
+}
+.bg img{
+	height: 160px;
+	width: 100%;
+	margin: 0px 0px 80px 0px;
+	padding: 0px;
+}
+.lead a:visited{
+	color:#004a87;
+	text-decoration:none;
+}
+.lead a:hover{
+    color:#FF0000;
+	text-decoration:none;
+}
+.container{
+	margin:70px auto;
+	width:1000px;
+	height:1000px;
+	text-align:left;
+	background:white;
+}
+.left{
+    height:750px;
+	margin:0px 0px 0px 100px;
+	background:white;
+	width:300px;
+	padding:0px 0px 5px 0px;
+	float:left;
+}
+.news{
+    margin:32px 20px 20px -50px;
+}
+.news h1{
+	font-size:25px;
+	padding:-5px 20px 20px 10px;
+	margin:0px;
+	color:rgb(53, 15, 190);
+}
+.news ul li{
+	font-size:22px;
+	margin:8px 5px 0px 3px;
+	padding:0px 0px 5px 20px;
+	color:rgb(54, 69, 155);
+	list-style-type:none
+}
+.picture{
+	text-decoration:none;
+	margin:15px 20px 22px -50px;
+	background-color:white;
+}
+.picture h1{
+	font-size:25px;
+	padding:15px 20px 20px 10px;
+	margin:0px;
+	color:blue;
+}
+.picture ul li img{
+	margin:10px 10px 0px 50px;
+	border:1px solid #e01919;
+	width:95%;
+}
+.picture ul li a{
+	margin:20px 10px 20px -70px;
+	padding: 20px 0px;
+	
+}
+.picture ul li p:link,#today ul li p:visited{
+	color:black;
+	font-size:20px;
+	margin:20px 10px 40px 10px;
+	text-decoration:none;
+	color:#45ADA8;
+}
+.picture ul li p:hover{
+	color:red;
+	text-decoration:underline;
+}
+.millde {
+	margin:-30px 0px 0px 100px;
+	color:#45ADA8;
+	background-color:white;
+	width: 800px;
+	padding: 10px;
+	margin-left: 200px;
+}
+.millde h1{
+    margin:25px;
+	color:#45ADA8;
+	font-size: 25px;
+}
+.millde  p{
+    background-color:white;
+    color:black;
+	font-size: 17px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	border: 1px dashed;
+}
+.millde  p:hover{
+    text-decoration:underline;
+    color:blue;
+}
+.footer{
+	margin:80px 0px 0px 0px;
+	height:100px;
+	background:#584a4a;
+	padding:1px 0px;
+	clear:both;
+}
+.footer p{
+    background:#584a4a;
+	text-align:center;
+	margin:40px 5px 4px 5px;
+	color:white;
+}
+.footer p a{
+	color:white;
+}
+.footer p a:hover{
+	color:red;
+	text-decoration: underline;
+}

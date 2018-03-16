@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("../首页img/black.png");
+	text-decoration:none;
+}
+.containers{
+	margin: 0px;
+	padding: 0px;
+}
+.pic{
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+.pic img{
+	margin: -15px 0px 0px 200px;
+	width: 140px;
+	height:120px;
+}
+.sousuo{
+	margin: 10px -20px -35px 950px;
+	background:url("../首页img/white.png") no-repeat;
+}
+.input-mina{
+	padding: -5px 40px 30px 200px;
+	margin:0px;
+}
+.lead{
+	margin:50px -30px 0px 360px;
+	padding:0px;
+}
+.lead ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+.lead ul li{
+	float:left;
+	font-size:20px;
+	text-align:center;
+	width:115px;
+}
+.lead ul li a{
+	text-decoration:none;
+	display:block;
+	padding:15px 12px 18px 18px;;
+	margin:0px;
+}
+.lead a:link,.lead a:visited{
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+.lead a:hover{
+	text-decoration:underline;
+	color:red;
+	background:url("../首页img/button1-bg.jpg") no-repeat;
+}
+.bg{
+	height: 200px;
+}
+.bg img{
+	height: 160px;
+	width: 100%;
+	margin: 0px 0px 80px 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0px 200px  200px 200px;
+	width:1000px;
+	height:350px;
+	text-align:left;
+	background:white;
+	color:black;
+}
+.left{
+    height:300px;
+	margin:16px 10px 0px 20px;
+	background:white;
+	width:210px;
+	color:black;
+	padding:0px 0px 5px 0px;
+	float:left;
+}
+.left li {
+    font-size:25px;
+    color:black;
+    margin:25px 20px;
+    text-decoration:none;
+}
+.left li a{
+	text-decoration:none;
+	line-height: 43px;
+    color:black;
+}
+.left li a:hover{
+    font-size:25px;
+    color:red;
+	text-decoration:underline;
+}
+.middle{
+    height:300px;
+	margin:16px 10px 0px 10px;
+	background:red;
+	width:500px;
+	padding:0px 0px 5px 0px;
+	float:left;
+	text-align: center;
+	color:blue;
+}
+.right{
+    height:300px;
+	margin:0px 20px 0px 10px;
+	background:black;
+	width:210px;
+	padding:0px 0px 5px 0px;
+	float:left;
+}
+.footer{
+	margin:0px 0px -20px 0px;
+	height:100px;
+	background:#584a4a;
+	padding:1px 0px;
+	clear:both;
+}
+.footer p{
+    background:#584a4a;
+	text-align:center;
+	margin:40px 0px -20px 0px;
+	color:white;
+}
+.footer p a{
+	color:white;
+}
+.footer p a:hover{
+	color:red;
+	text-decoration: underline;
+}

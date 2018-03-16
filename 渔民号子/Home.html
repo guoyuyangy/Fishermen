@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="./首页css/bootstrap.min.css">
+    <link rel="stylesheet" href="./首页css/Home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="./首页img/logo.jpg" alt="主导图片">
+        </div>
+        <div class="sousuo">					
+                    <form action="http://searchweb.ucas.ac.cn:8080/constellio/index.jsp" method="post" target=_blank>
+                        <strong>搜索</strong>
+                        <input class="input-mini" onblur=clearText(this) id="q" type="text" name="q"/>
+                        <input class="input-mina" onClick="dosearch();return false;" src="首页img/search.png" type="image"/>
+                    </form>			
+        </div>
+        <div class="lead">
+                    <ul>
+                        <li><a href="Home.html">首页</a></li>
+                        <li><a href="Long Island Fishing.html">长岛渔号</a></li>
+                        <li><a href="News Center.html">新闻中心</a></li>
+                        <li><a href="Yuhao inheritance.html">渔号传承</a></li>
+                        <li><a href="Cultural Tourism.html">文化旅游</a></li>
+                        <li><a href="Local intangible.html">本地非遗</a></li>
+                        <li><a href="about us.html">关于我们</a></li>
+                    </ul>
+        </div>
+    </div>    
+    <div class="containers">
+        <div class="shutter">
+            <div class="shutter-img">
+            <a href="#" data-shutter-title="日落长岛"><img src="首页img/shutter_1.jpg" alt="日落长岛"></a>
+            <a href="#" data-shutter-title="辛勤劳动的渔民"><img src="首页img/shutter_2.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="渔民捕鱼归来"><img src="首页img/shutter_3.jpg" alt="#"></a>
+            <a href="#" data-shutter-title="长岛海鸥"><img src="首页img/shutter_4.jpg" alt="#"></a>
+            </div>
+            <ul class="shutter-btn">
+            <li class="prev"></li>
+            <li class="next"></li>
+            </ul>
+            <div class="shutter-desc">
+            <p>日落长岛</p>
+            </div>
+        </div>    
+        <script src="js/jquery.min.js"></script>
+        <script src="js/velocity.js"></script>
+        <script src="js/shutter.js"></script>
+        <script>
+        $(function () {
+          $('.shutter').shutter({
+            shutterW: 1000, // 容器宽度
+            shutterH: 358, // 容器高度
+            isAutoPlay: true, // 是否自动播放
+            playInterval: 3000, // 自动播放时间
+            curDisplay:0, // 当前显示页
+            fullPage: false // 是否全屏展示
+          });
+        });
+        </script>
+        <div class="main">
+            <div class="title">
+                <img src="./首页img/title.png" alt="主导图片">
+            </div>
+            <div class="left">
+                <img src="./首页img/label.png" alt="主导图片">
+                <h1>长岛渔号<span><a href="Long Island Fishing.html">更多+</a></span></h1>
+                <div class="middle">
+                    <img src="./首页img/妈祖.jpg" alt="妈祖祭典">
+                    <img src="./首页img/岛屿.jpg" alt="主导图片">  
+                    <p>妈祖祭典</p>        
+                    <li>渔号岛屿<li>       
+                </div>
+            </div>
+            <div class="right">
+                <img src="./首页img/label.png" alt="主导图片">
+                <h1>渔号新闻<span><a href="News Center.html">更多+</a></span></h1>
+                <div class="news">
+                    <ul>
+                        <li>山东长岛保护“绿水青山” 扮美“山海林岸滩”  2017-12-18</li>
+				        <li>山东长岛推行渔业科技精准对接 助力“海上粮仓”建设 2017-12-01</li>
+				        <li>山东长岛县海域发生3.7级地震 震源深度9千米  2017-03-27</li>
+				        <li>中国首个渔业多功能平台在山东长岛投用（图）  2017-05-11</li>
+                        <li>专家齐聚山东长岛 支招海岛生态建设发展(图)  2017-06-12</li>
+                        <li>山东长岛县海域发生2.9级地震 震源深度10千米  2017-03-16</li>
+                        <li>山东长岛海域发生3.9级地震 震源深度9千米 2017-03-03</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- 整体外层容器-->
+    <div class="footer">
+         <p>jack &copy;版权所有 E-mail：<a href="https://mail.qq.com/cgi-bin/frame_html?sid=bFYg7aeGfk2XSwJb&r=295341fa09d5ea144e6ae248c55911af" target="_blank">1228098106@qq.com</a> </p>
+    </div>
+</body>
+</html>
