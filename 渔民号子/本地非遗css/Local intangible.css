@@ -15,12 +15,12 @@ body{
 }
 .pic img{
 	margin: -15px 0px 0px 200px;
-	width: 140px;
-	height:120px;
+	width: 120px;
+	height:110px;
 }
 .sousuo{
-	margin: 10px 10px -35px 950px;
-	background:url("../首页img/white.png") no-repeat;
+	margin: 15px 10px -35px 950px;
+	background:url("../首页img/black.png") no-repeat;
 }
 .lead{
 	margin:50px -30px 0px 360px;
@@ -64,11 +64,209 @@ body{
 	padding: 0px;
 }
 .container{
-	margin:45px auto;
+	margin:0px auto;
     width:1100px;
-    height:200px;
+    height:1350px;
 	text-align:left;
 	background:white;
+	border-bottom: 1px 
+}
+.location{
+	height: 20px;
+	width:1100px;
+	margin: 30px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px dashed rgb(187, 166, 166);
+}
+.location p{
+	font-size: 13px;
+	color: #997f7f;
+	margin: 0px 0px 0px 800px;
+	padding: 0px 0px 0px 170px;
+} 
+.boot{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.boot1{
+	background:url("../本地非遗img/back.png") repeat;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+.boot1 img{
+	margin: 10px 0px 0px 35px;
+	padding: 10px 0px 0px 0px ;
+}
+.boot1 h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: rgb(122, 52, 52);
+	border-bottom: 1px dashed  rgb(172, 161, 161);
+	margin: -30px 0px 10px 65px ;
+	padding: 0px 0px 10px 0px ;
+}
+.boot1 a{
+	margin: 10px 0px 20px 650px; 
+	font-size: 15px;
+	text-decoration:none;
+}
+.boot1 a:hover{
+	font-size: 15px;
+	color: red;
+	text-decoration: underline;
+}
+.boot2 img{
+	width:150px;
+	height:200px;
+	float: left;
+	margin: 10px 0px 0px 35px;
+	padding: 2px;
+	border: 1px solid  rgb(172, 161, 161);
+}
+.boot2 p{
+	margin: 15px 0px 0px 30px;
+	padding: 40px 0px 0px 200px;
+	width:800px;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	text-align: left;
+	color: rgb(87, 73, 73);
+}
+.boot3{
+	background:url("../本地非遗img/back.png") repeat;
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+}
+.boot3 img{
+	margin: 10px 0px 0px -150px;
+	padding: 10px 0px 0px 0px ;
+}
+.boot3 h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: rgb(122, 52, 52);
+	border-bottom: 1px dashed  rgb(172, 161, 161);
+	margin: -30px 0px 10px 70px ;
+	padding: 0px 0px 10px 0px ;
+}
+.boot3 a{
+	margin: 10px 0px 20px 675px; 
+	font-size: 15px;
+	text-decoration:none;
+}
+.boot3 a:hover{
+	font-size: 15px;
+	color: red;
+	text-decoration: underline;
+}
+.boot4 img{
+	width:150px;
+	height:200px;
+	float: left;
+	margin: 10px 0px 0px 35px;
+	padding: 2px;
+	border: 1px solid  rgb(172, 161, 161);
+}
+.boot4 p{
+	margin: 15px 0px 0px 30px;
+	padding: 40px 0px 0px 200px;
+	width:800px;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	text-align: left;
+	color: rgb(87, 73, 73);
+}
+.boot5{
+	background:url("../本地非遗img/back.png") repeat;
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+}
+.boot5 img{
+	margin: 10px 0px 0px 50px;
+	padding: 10px 0px 0px 0px ;
+}
+.boot5 h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: rgb(122, 52, 52);
+	border-bottom: 1px dashed  rgb(172, 161, 161);
+	margin: -30px 0px 10px 75px ;
+	padding: 0px 0px 10px 0px ;
+}
+.boot5 a{
+	margin: 10px 0px 20px 700px; 
+	font-size: 15px;
+	text-decoration:none;
+}
+.boot5 a:hover{
+	font-size: 15px;
+	color: red;
+	text-decoration: underline;
+}
+.boot6 img{
+	width:150px;
+	height:200px;
+	float: left;
+	margin: 10px 0px 0px 35px;
+	padding: 2px;
+	border: 1px solid  rgb(172, 161, 161);
+}
+.boot6 p{
+	margin: 15px 0px 0px 30px;
+	padding: 40px 0px 0px 200px;
+	width:800px;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	text-align: left;
+	color: rgb(87, 73, 73);
+}
+.boot7{
+	background:url("../本地非遗img/back.png") repeat;
+	margin: 40px 0px 0px 0px;
+	padding: 0px;
+}
+.boot7 img{
+	margin: 10px 0px 0px 50px;
+	padding: 10px 0px 0px 0px ;
+}
+.boot7 h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: rgb(122, 52, 52);
+	border-bottom: 1px dashed  rgb(172, 161, 161);
+	margin: -30px 0px 10px 75px ;
+	padding: 0px 0px 10px 0px ;
+}
+.boot7 a{
+	margin: 10px 0px 20px 700px; 
+	font-size: 15px;
+	text-decoration:none;
+}
+.boot7 a:hover{
+	font-size: 15px;
+	color: red;
+	text-decoration: underline;
+}
+.boot8 img{
+	width:150px;
+	height:200px;
+	float: left;
+	margin: 10px 0px 0px 35px;
+	padding: 2px;
+	border: 1px solid  rgb(172, 161, 161);
+}
+.boot8 p{
+	margin: 15px 0px 0px 30px;
+	padding: 40px 0px 0px 200px;
+	width:800px;
+	font-size: 15px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	text-align: left;
+	color: rgb(87, 73, 73);
 }
 .footer{
 	margin:0px 0px -20px 0px;

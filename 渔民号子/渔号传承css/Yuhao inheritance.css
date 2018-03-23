@@ -15,12 +15,12 @@ body{
 }
 .pic img{
 	margin: -15px 0px 0px 200px;
-	width: 140px;
-	height:120px;
+	width: 120px;
+	height:110px;
 }
 .sousuo{
-	margin: 10px 10px -35px 950px;
-	background:url("../首页img/white.png") no-repeat;
+	margin: 15px 10px -35px 950px;
+	background:url("../首页img/black.png") no-repeat;
 }
 .lead{
 	margin:50px -30px 0px 360px;
@@ -64,11 +64,255 @@ body{
 	padding: 0px;
 }
 .container{
-	margin:45px auto;
+	margin:0px auto;
     width:1100px;
-    height:300px;
+    height:1120px;
 	text-align:left;
 	background:white;
+}
+.location{
+	height: 20px;
+	width:1000px;
+	margin: 30px 0px 0px 970px ;
+	padding: 0px 0px 0px 0px;
+}
+.location p{
+	font-size: 13px;
+	color: #997f7f;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+} 
+.main1{
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+	background: rgb(221, 222, 228);
+	height:50px;
+}
+.main1 a{
+	font-size:30px;
+	margin: 0px 0px 0px 0px;
+	padding:10px 0px 0px 430px;
+}
+.main2{
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+	height: 50px;
+}
+.main3{
+	margin: 20px 0px 10px 110px;
+	padding: 0px 30px 0px 0px;
+}
+.main3 img{
+	margin: 0px 40px 0px 20px;
+	padding: 0px 30px 0px 0px;
+	width: 200px;
+	height: 135px;	
+}
+.main4{
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+}
+.main4 a{
+	font-size:15px;
+	margin: 0px 0px 0px 140px;
+}
+.main5{
+	margin: 0px;
+	padding: 0px 0px 15px 0px;
+	border-bottom: 1px dashed rgb(180, 150, 150);
+}
+.main5 a{
+	font-size:25px;
+	margin: 0px 0px 0px 170px;
+}
+.ll{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px dashed rgb(180, 150, 150);
+}
+.left{
+	margin: 0px 0px 0px 0px;
+	float: left;
+	width: 340px;
+	height: 370px;
+}
+.left a img{
+	margin: 0px 0px 0px 50px;
+	padding: 0px;
+	height: 50px;
+}
+.left1 img{
+	margin: 10px 0px 10px 100px;
+	padding: 0px;
+	width: 200px;
+	height: 100px;
+}
+.left1 span{
+	font-size:13px;
+	margin:10px 0px 0px 100px;  
+}
+.left1 a{
+	font-size:13px;
+	margin:10px 0px 0px 150px;  
+}
+.middle{
+	margin: 0px 0px 0px 340px;
+	width: 400px;
+	height: 370px;
+	list-style-type: none;
+}
+.middle a{
+	width: 400px;
+	height: 30px;
+	font-size: 30px;
+	margin: 0px 0px 0px 152px ;
+	padding:0px;
+}
+.middle li{
+	width: 400px;
+	height: 20px;
+	font-size:15px;
+	margin: 10px 0px 0px 32px ;
+	padding:0px;
+}
+.middle p{
+	width: 400px;
+	font-size:15px;
+	margin: 10px 0px 0px 0px;
+	line-height:18px;
+	letter-spacing: 0.3px;
+	padding:0px;
+}
+.right{
+	margin: -370px 0px 0px 740px;
+	padding:0px 0px 0px 0px;
+	width: 360px;
+	height: 370px;
+}
+.right img{
+	margin: 62px 0px 20px 100px;
+	padding: 0px;
+	width: 200px;
+	height: 100px;
+}
+.right span{
+	font-size:13px;
+	margin:0px 0px 0px 150px;  
+	padding:0px 0px 0px 0px ;
+}
+.right a img{
+	margin:10px 0px 10px 100px;  
+}
+.lll{
+	margin: 0px;
+	padding: 0px;
+	height: 380px;
+	border-bottom: 1px dashed rgb(180, 150, 150);
+}
+.lefts{
+	margin: 10px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+	width: 540px;
+	height: 370px;
+}
+.lefts li img{
+	margin: 0px 0px 0px 50px;
+	text-decoration: none;
+	padding: 0px;
+	height: 50px;
+}
+.under1{
+	margin: 15px 0px 10px 0px;
+	padding: 0px;
+	width: 530px;
+	height: 290px;	
+}
+.under1 img{
+	margin: 0px 0px 0px 100px;
+	padding: 0px;
+	width: 200px;
+	height: 100px;	
+}
+.under1 a{
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+	width: 200px;
+	height: 300px;
+}
+.under1 a img{
+	margin: -700px 0px 0px 0px;
+	padding: 0px;
+	width: 200px;
+	height: 100px;	
+}
+.under1 span{
+	font-size:13px;
+	margin:10px 0px 0px 270px;  
+	padding:0px 0px 0px 0px ;	
+}
+.under2{
+	margin: 15px 0px 10px 0px;
+	padding: 0px;
+}
+.under2 img{
+	margin: 0px 0px 0px 120px;
+	padding: 0px;
+	width: 170px;
+	height: 130px;	
+}
+.under2 a{
+	margin: 0px 0px 0px 40px;
+	padding: 0px;
+	width: 200px;
+	height: 300px;
+}
+.under2 a img{
+	margin: -700px 0px 0px 0px;
+	padding: 0px;
+	width: 170px;
+	height: 130px;	
+}
+.under2 span{
+	font-size:13px;
+	margin:10px 0px 0px 290px;  
+	padding:0px 0px 0px 0px ;	
+}
+.rights{
+	margin: 20px 0px 0px 540px;
+	list-style-type: none;
+	width: 540px;
+	height: 380px;	
+}
+.up{
+	margin: 20px 0px 0px 0px;
+	padding: 30px 0px 0px 0px ;
+	height: 32px;
+	border-bottom: 1px solid black;
+}
+.up a{
+	margin:20px 0px 0px 20px;
+	padding:20px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.up1{
+	float: left;
+	list-style-type: disc;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 10px ;
+	height: 400px;
+	width:240px;
+}
+.up2{
+	list-style-type: disc;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 20px ;
+	height: 400px;
+}
+.up2 p{
+	font-size:18px;
+	line-height: 90px;
 }
 .footer{
 	margin:40px 0px -20px 0px;

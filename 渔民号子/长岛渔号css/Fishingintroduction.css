@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:url("../首页img/black.png");
+	text-decoration:none;
+}
+.location{
+	height: 20px;
+	width:1000px;
+	margin: 10px 0px 0px 950px;
+	padding: 0px 0px 0px 0px;
+}
+.location p{
+	font-size: 13px;
+    color: #997f7f;
+    letter-spacing: 0.8px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+} 
+.container{
+    border: 1px solid rgb(119, 54, 54);
+    margin:0px auto;
+    background: #ffffff;
+    width: 1000px;
+}
+.lead{
+    margin: 30px;
+    padding: 0px;
+}
+.lead p{
+    margin: 5px 0px;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+.lead a{
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+}
+.lead li{
+    padding: 0px 0px 0px 50px;
+    font-size: 20px;
+    color:blue;
+}
+.under{
+    margin: 5px;
+    padding: 0px;
+}
+.under p{
+    font-size: 25px;
+    color: blue;
+}
+.under li{
+    padding: 0px 0px 0px 50px;
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+    line-height: 30px;
+}
+.foot p{
+    margin: 20px 0px 3px 10px;
+    font-size:25px;
+    border-bottom: 1px solid gray; 
+}
+.foots {
+    margin: 20px 0px 20px 0px;
+}
+.foots p{
+    margin: 20px 0px 20px 120px;
+    font-size:10px;
+}
+.foots a{
+    margin: 20px 0px 20px 23px;
+    font-size:10px;
+    text-decoration:none;
+}
+.foots a:hover{
+    text-decoration:underline;
+}

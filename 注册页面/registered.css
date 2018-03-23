@@ -1,0 +1,30 @@
+body{
+	background:url("img/right.jpg") no-repeat 450px;
+	margin:20px;
+	padding:40px;
+	font-family:Arial;
+}
+#nicheng{
+	margin:200px 450px -1px;
+	font-style:italic;
+}
+#mima{
+	margin:10px 450px 10px;
+	font-style:italic;
+}
+#againword{
+	margin:10px 450px 10px;
+	font-style:italic;
+}
+#zhuce{
+    margin:10px 450px -22px;
+	font-size:25px;
+}
+#back{
+    background:url("img/fonts.jpg");
+    margin:60px 500px -40px;
+}
+#front{
+    background:url("img/logo.jpg");
+    margin:-400px 550px ;
+}

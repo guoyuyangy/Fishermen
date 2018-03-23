@@ -1,0 +1,23 @@
+body{
+    background:url("img/left.jpg") ;
+	margin:0px;
+	padding:0px;
+	font-size:15px;
+	font-family:Arial;
+}
+#nicheng{
+    background:url("img/middle.jpg") ;
+	margin:300px 250px -1px;
+	font-style:italic;
+}
+#mima{
+    background:url("img/middle.jpg") no-repeat;
+	margin:20px 250px 10px;
+	font-style:italic;
+}
+#zhuce{
+       margin:20px 350px 10px;
+       font-size:20px;
+}
+
+

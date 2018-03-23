@@ -15,12 +15,12 @@ body{
 }
 .pic img{
 	margin: -15px 0px 0px 200px;
-	width: 140px;
-	height:120px;
+	width: 120px;
+	height:110px;
 }
 .sousuo{
-	margin: 10px 10px -35px 950px;
-	background:url("../首页img/white.png") no-repeat;
+	margin: 15px 10px -35px 950px;
+	background:url("../首页img/black.png") no-repeat;
 }
 .lead{
 	margin:50px -30px 0px 360px;
@@ -60,50 +60,200 @@ body{
 .bg img{
 	height: 160px;
 	width: 100%;
-	margin: 0px 0px 80px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 0px;
 }
 .container{
-	margin:-30px auto;
+	margin:0px auto;
 	width:1100px;
-	height: 200px;
+	height: 1280px;
 	text-align:left;
-	background:rgb(211, 205, 205);
+	background:white;
 }
-.leads{
-	margin:80px -30px 0px 200px;
-	padding:0px;
-	background: rgb(211, 205, 205);
-
+.location{
+	height: 20px;
+	width:1000px;
+	margin: 25px 0px 0px 950px ;
+	padding: 0px 0px 0px 0px;
 }
-.leads ul{
-	list-style-type:none;
-	padding:0px;
+.location p{
+	font-size: 13px;
+	color: #997f7f;
 	margin: 0px;
-}
-.leads ul li{
-	background:url("../长岛渔号img/back.png") no-repeat;
-	float:left;
-	font-size:23px;
-	margin: 45px 0px 40px 0px;
+	padding: 0px 0px 0px 0px;
+} 
+.root1{
+	background:rgb(243, 238, 238);
+	margin: 0px;
 	padding: 0px;
-	text-align:center;
-	border: 1px rgb(146, 155, 145) solid;
-	width:180px;
+	border-top:3px black solid;
+	border-bottom: 1px dashed rgb(133, 118, 118);
+	height: 140px;
 }
-.leads a:link,.lead a:visited{
-	color:white;
-	font-family: Arial, Helvetica, sans-serif;
-	text-decoration:none;
-	display:block;
-	text-align: center;
-	padding:28px 40px 28px 40px;;
-	margin:0px;
+.root1 img{
+	margin: 0px 0px 10px 120px;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	float: left;	
 }
-.leads a:hover{
-	text-decoration:underline;
-	color:red;
-	background:url("../首页img/button1-bg.jpg") no-repeat;
+.root1 a{
+	margin: 60px 0px 0px 130px;
+	color: black;
+	padding: 30px 0px 0px 40px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.root1 a:hover{
+	text-decoration: none;
+}
+.root1 p{
+	margin: 10px 0px 0px 650px;
+	padding: 15px 0px 10px 0px ;
+	color: black;
+	font-size: 25px;
+}
+.root2{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	height: 289px;
+	background:rgb(243, 238, 238);
+	border: 1px dashed rgb(133, 118, 118);
+}
+.root2 ul li{
+	list-style-type: none;
+	margin: 20px 0px 0px 30px;
+}
+.root2 a{
+	margin: 10px;
+	padding: 10px 0px 5px 50px ;
+	color:#9c5d5d;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+.root2 a :hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color: red;
+	font-size: 25px;
+}
+.root2-1{
+	margin: -235px 0px 0px 420px;
+	padding: 0px;
+}
+.root2-1 img{
+	width: 520px;
+	height: 280px;
+	margin: -45px 0px 0px 0px;
+	padding: 0px;
+}
+.root3{
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	height: 290px;
+	background:rgb(243, 238, 238);
+	background:url("../长岛渔号img/timg.jpg") no-repeat;
+	border-bottom: 1px dashed rgb(133, 118, 118);
+}
+.root3-1 p{
+	margin: 20px 0px 10px 320px; 
+	font-size:28px;
+	padding: 20px 0px 0px 0px;
+	color:black;
+	font-weight: bold;
+}
+.root3-2 p{
+	float: left;
+	font-size:14px;
+	width: 550px;
+	height: 270px;
+	margin: 0px;
+	padding: 0px 20px 5px 50px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
+}
+.root3-3 p{
+	font-size:14px;
+	width: 550px;
+	height: 270px;
+	margin: -2px 0px 0px 480px;
+	padding: 0px 10px 15px 30px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
+}
+.root4{
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	height: 230px;
+	background:rgb(243, 238, 238);
+	background:url("../长岛渔号img/timg.jpg") no-repeat;
+	border-bottom: 1px dashed rgb(133, 118, 118);
+}
+.root4-1 p{
+	margin: 20px 0px 10px 360px; 
+	font-size:28px;
+	padding: 0px 0px 0px 0px;
+	color:black;
+	font-weight: bold;
+	clear: both;
+}
+.root4-2 p{
+	float: left;
+	font-size:14px;
+	width: 550px;
+	margin: 0px;
+	padding: 0px 20px 5px 30px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
+}
+.root4-3 p{
+	font-size:14px;
+	width: 550px;
+	margin: -2px 0px 0px 480px;
+	padding: 0px 10px 15px 10px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
+}
+.root5{
+	margin: 20px 0px 0px 0px;
+	padding: 0px;
+	height: 225px;
+	background:rgb(243, 238, 238);
+	background:url("../长岛渔号img/timg.jpg") no-repeat;
+	border-bottom: 1px dashed rgb(133, 118, 118);
+}
+.root5-1 p{
+	clear:left;
+	margin: -70px 0px 10px 80px; 
+	font-size:28px;
+	padding: 0px 0px 0px 330px;
+	color:black;
+	font-weight: bold;
+}
+.root5-2 p{
+	float: left;
+	font-size:14px;
+	width: 550px;
+	margin: 0px;
+	padding: 0px 20px 5px 30px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
+}
+.root5-3 p{
+	font-size:14px;
+	width: 550px;
+	margin: -2px 0px 0px 480px;
+	padding: 0px 10px 15px 10px;
+	line-height: 23px;
+	letter-spacing: 0.2px;
+	color: #9c5d5d;
 }
 .footer{
 	margin:80px 0px 0px 0px;
